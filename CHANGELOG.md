@@ -6,6 +6,7 @@
 
 - Expanded test suite (30 tests: engine, store)
 - "See Also" cross-links to related packages
+- GitHub Actions CI (Python 3.10-3.13 matrix) and publish workflow
 
 ## 0.1.0 (2026-03-27)
 
