@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 (2026-03-28)
+
+### Added
+
+- Expanded test suite (30 tests: engine, store)
+- "See Also" cross-links to related packages
+
 ## 0.1.0 (2026-03-27)
 
 - Initial release
