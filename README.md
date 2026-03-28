@@ -325,6 +325,15 @@ But most AI workloads are pipelines. Items flow through stages. Some stages call
 | Resume | Immutable step outputs | Checkpoint after every node |
 | Lock-in | None | Requires langchain-core (12 MB) |
 
+## See Also
+
+| Package | Description |
+|---|---|
+| [@probeo/workflow](https://github.com/probeo-io/workflow) | TypeScript version of this package |
+| [workflow-go](https://github.com/probeo-io/workflow-go) | Go version of this package |
+| [anymodel-py](https://github.com/probeo-io/anymodel-py) | Unified LLM router for Python |
+| [anyserp-py](https://github.com/probeo-io/anyserp-py) | Unified SERP API router for Python |
+
 ## License
 
 MIT
