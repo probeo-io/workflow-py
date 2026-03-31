@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "probeo-workflow-py"
-version = "0.1.0"
+version = "0.1.1"
 description = "Stage-based pipeline engine for AI workloads. Zero dependencies. Code decides what happens. AI does the work."
 readme = "README.md"
 requires-python = ">=3.10"
