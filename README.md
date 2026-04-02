@@ -1,5 +1,11 @@
 # workflow-py
 
+[![PyPI version](https://img.shields.io/pypi/v/workflow-py)](https://pypi.org/project/workflow-py/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/workflow-py)](https://pypi.org/project/workflow-py/)
+[![license](https://img.shields.io/pypi/l/workflow-py)](https://pypi.org/project/workflow-py/)
+[![Python versions](https://img.shields.io/pypi/pyversions/workflow-py)](https://pypi.org/project/workflow-py/)
+[![CI](https://github.com/probeo-io/workflow-py/actions/workflows/ci.yml/badge.svg)](https://github.com/probeo-io/workflow-py/actions/workflows/ci.yml)
+
 Stage-based pipeline engine for AI workloads. Zero dependencies. Code decides what happens. AI does the work.
 
 Most AI pipelines are linear: fetch data, analyze it, enrich it, summarize it. Some stages call LLMs. Some don't. The control flow is deterministic even when AI is involved. You don't need a graph framework for that.
@@ -323,7 +329,7 @@ But most AI workloads are pipelines. Items flow through stages. Some stages call
 | Concurrency | Per-item with limits | Fan-out via Send pattern |
 | Persistence | FileStore (filesystem) | Checkpointer (Postgres, memory) |
 | Resume | Immutable step outputs | Checkpoint after every node |
-| Lock-in | None | Requires langchain-core (12 MB) |
+| Lock-in | None | Requires langchain-core |
 
 ## See Also
 
@@ -333,6 +339,10 @@ But most AI workloads are pipelines. Items flow through stages. Some stages call
 | [workflow-go](https://github.com/probeo-io/workflow-go) | Go version of this package |
 | [anymodel-py](https://github.com/probeo-io/anymodel-py) | Unified LLM router for Python |
 | [anyserp-py](https://github.com/probeo-io/anyserp-py) | Unified SERP API router for Python |
+
+## Support
+
+If workflow is useful to you, consider giving it a star. It helps others discover the project.
 
 ## License
 
